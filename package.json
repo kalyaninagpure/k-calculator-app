@@ -1,16 +1,15 @@
 {
   "name": "dialogflowFirebaseFulfillment",
-  "description": "This is the default fulfillment for a Dialogflow agents using Cloud Functions for Firebase",
+  "description": "Calculator app sample for Heroku",
   "version": "0.0.1",
   "private": true,
   "license": "Apache Version 2.0",
-  "author": "Google Inc.",
+  "author": "Kalyani N",
   "engines": {
     "node": "~6.0"
   },
   "scripts": {
-    "start": "firebase serve --only functions:dialogflowFirebaseFulfillment",
-    "deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment"
+    "start": "node index.js"
   },
   "dependencies": {
     "actions-on-google": "2.0.0-alpha.4",

@@ -9,7 +9,7 @@
     "node": "~6.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node fullfilment/index.js"
   },
   "dependencies": {
     "actions-on-google": "2.0.0-alpha.4",

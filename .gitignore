@@ -1,0 +1,17 @@
+######################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+firebase-debug.log
+
+
+######################
+# ESLint
+######################
+.eslintcache
+/bin/
+/bin/
+/bin/

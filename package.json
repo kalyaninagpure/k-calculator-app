@@ -5,6 +5,7 @@
   "private": true,
   "license": "Apache Version 2.0",
   "author": "Kalyani N",
+  "main": "index.js",
   "engines": {
     "node": "~6.0"
   },
@@ -12,10 +13,8 @@
     "start": "node fullfilment/index.js"
   },
   "dependencies": {
-    "actions-on-google": "2.0.0-alpha.4",
-    "firebase-admin": "^4.2.1",
-    "firebase-functions": "^0.5.7",
-    "dialogflow": "^0.1.0",
-    "dialogflow-fulfillment": "0.3.0-beta.3"
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "actions-on-google": "2.0.0-alpha.4"
   }
 }
